@@ -80,7 +80,7 @@ public class TelegramBotUpdatesListener implements UpdatesListener {
 
     private void sendAfterStart(Long chatId) {
         InlineKeyboardMarkup keyboardMarkup = new InlineKeyboardMarkup();
-        keyboardMarkup.addRow(new InlineKeyboardButton("Приют для кошек").callbackData("/cat"),
+        keyboardMarkup.addRow(new InlineKeyboardButton("Приют для медведей").callbackData("/cat"),
                 new InlineKeyboardButton("Приют для собак").callbackData("/dog"));
         telegramBot.execute(
                 new SendMessage(
