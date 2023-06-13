@@ -74,6 +74,9 @@ public class TelegramBotUpdatesListener implements UpdatesListener {
                             if (data.equals(String.valueOf(Buttons.SAFETY_DOG_SHELTER))) {
                                 SafetyDogShelter(update.callbackQuery().from().id());
                             }
+                            if (data.equals(String.valueOf(Buttons.BACK_CAT))){
+                                sendAfterCatInfo(update.callbackQuery().from().id());
+                            }
                             if (data.equals(String.valueOf(Buttons.BACK_DOG))) {
                                 sendAfterDogInfo(update.callbackQuery().from().id());
                             }
