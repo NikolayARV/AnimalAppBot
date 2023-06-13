@@ -26,7 +26,8 @@ public class PetService {
     }
 
     public Cat createCat(String name, int age, String breed) {
-        return catRepository.save(new Cat(name, age, breed));
+        Cat cat = new Cat(name, age, breed);
+        return catRepository.save(cat);
     }
 
     public Dog createDog(String name, int age, String breed) {
