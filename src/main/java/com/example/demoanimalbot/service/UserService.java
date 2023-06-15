@@ -1,7 +1,7 @@
 package com.example.demoanimalbot.service;
 
-import com.example.demoanimalbot.model.UserCat;
-import com.example.demoanimalbot.model.UserDog;
+import com.example.demoanimalbot.model.users.UserCat;
+import com.example.demoanimalbot.model.users.UserDog;
 import com.example.demoanimalbot.repository.UserCatRepository;
 import com.example.demoanimalbot.repository.UserDogRepository;
 import org.springframework.stereotype.Service;

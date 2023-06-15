@@ -1,6 +1,7 @@
 package com.example.demoanimalbot.controller;
 
-import com.example.demoanimalbot.model.*;
+import com.example.demoanimalbot.model.users.UserCat;
+import com.example.demoanimalbot.model.users.UserDog;
 import com.example.demoanimalbot.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;

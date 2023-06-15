@@ -1,6 +1,10 @@
 package com.example.demoanimalbot.service;
 
-import com.example.demoanimalbot.model.*;
+import com.example.demoanimalbot.model.pets.Cat;
+import com.example.demoanimalbot.model.pets.Dog;
+import com.example.demoanimalbot.model.pets.Status;
+import com.example.demoanimalbot.model.users.UserCat;
+import com.example.demoanimalbot.model.users.UserDog;
 import com.example.demoanimalbot.repository.CatRepository;
 import com.example.demoanimalbot.repository.DogRepository;
 import com.example.demoanimalbot.repository.UserCatRepository;
