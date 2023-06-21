@@ -26,7 +26,7 @@ public class UserService {
      * @return - позвращает созданный объект
      */
     public UserDog createUserDog(String name, String email, String phoneNumber) {
-        return userDogRepository.save(new UserDog(name, email, phoneNumber));
+        return userDogRepository.save(new UserDog(name,email,phoneNumber));
     }
 
     /**

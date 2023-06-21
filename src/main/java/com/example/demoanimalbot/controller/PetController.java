@@ -91,7 +91,7 @@ public class PetController {
      * @return - объект Кот
      */
     @GetMapping("/cat")
-    public Optional<Cat> findCotById(long catId) {
+    public Optional<Cat> findCatById(long catId) {
         return petService.findCat(catId);
     }
     @Operation(summary = "Поиск объекта Dog в базе данных",
