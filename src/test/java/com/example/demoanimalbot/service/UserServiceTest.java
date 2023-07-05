@@ -28,7 +28,7 @@ class UserServiceTest {
     UserCat userCat = new UserCat("b", "m", "d");
 
     @Test
-    void createUserDog() {
+    void   createUserDog() {
         when(userDogRepositoryMock.save(userDog))
                 .thenReturn(userDog);
         assertEquals(out.createUserDog("b", "m", "d"), userDog);
